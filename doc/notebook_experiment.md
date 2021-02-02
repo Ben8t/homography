@@ -1,41 +1,4 @@
 ```python
-#!apt update
-```
-
-    Hit:1 http://deb.debian.org/debian buster InRelease
-    Hit:2 http://security.debian.org/debian-security buster/updates InRelease
-    Hit:3 http://deb.debian.org/debian buster-updates InRelease
-    Reading package lists... Done[33m[33m[33m[33m[33m[33m
-    Building dependency tree       
-    Reading state information... Done
-    85 packages can be upgraded. Run 'apt list --upgradable' to see them.
-
-
-
-```python
-#!apt install libgl1-mesa-glx -y
-```
-
-    Reading package lists... Done
-    Building dependency tree       
-    Reading state information... Done
-    libgl1-mesa-glx is already the newest version (18.3.6-2+deb10u1).
-    0 upgraded, 0 newly installed, 0 to remove and 85 not upgraded.
-
-
-
-```python
-#!pip install opencv-python
-```
-
-    Requirement already satisfied: opencv-python in /usr/local/lib/python3.8/site-packages (4.5.1.48)
-    Requirement already satisfied: numpy>=1.17.3 in /usr/local/lib/python3.8/site-packages (from opencv-python) (1.19.5)
-    [33mWARNING: You are using pip version 20.0.2; however, version 21.0.1 is available.
-    You should consider upgrading via the '/usr/local/bin/python -m pip install --upgrade pip' command.[0m
-
-
-
-```python
 from dataclasses import dataclass
 from typing import List
 import numpy
